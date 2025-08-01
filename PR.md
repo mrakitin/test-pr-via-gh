@@ -6,5 +6,5 @@ Here is my PR's body
 
 I think it should be:
 ```bash
-gh pr create --title 'PR from `gh`' --body "$(cat PR.md) --head pr-branch"
+gh pr create --title 'PR from `gh`' --body "$(cat PR.md)" --head pr-branch
 ```
